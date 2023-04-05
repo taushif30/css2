@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    background-image: url(./123.jpeg);
+    background-size: cover;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(167, 219, 125);
+}
+
+
+.head{
+    display: flex;    
+
+    
+}
+
+.box{
+   color: white;
+   text-align: center;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: larger;
+    font-style: italic;
+
+
+}
+
+.left{
+    padding-top: 10px;
+    height: 100px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.mid{
+    padding-top: 20px;
+    margin-left: -100px ;
+    height: 60px;
+    width: 300px;
+    margin-top: 65px;
+}
+
+.right{
+    padding-top: 10px;
+    margin-left: 250px;
+    height: 100px;
+    width: 300px;
+}
+
+.bodyy{
+   
+    display: flex;
+    margin-top: 100px;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(53, 156, 134);
+    border: 5px grey solid;
+    margin: 50px;
+}
+
+.CTEXT{
+    text-align: center;
+    padding-top: 75px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+.form{
+    margin-left: 200px;
+    border: 10px dashed red;
+    height: 600px;
+    width: 350px;
+    color: rgb(192, 101, 101);
+    text-align: center;
+    background-color: white;
+}
+
+.input{
+    
+    line-height: 28px;
+}
+
+.menu{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 60px;
+    width: 300px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 30px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+
+.bo{
+    font-size: larger;
+    font-weight: bolder;
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    border: 5px green solid;
+    color: rgb(43, 43, 114);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    list-style-position: inside;
+}
+
+.list{
+    padding-left:  30px;
+}
+
+
+h1{
+    line-height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.bot{
+    height: 400px;
+}
+
+.q{
+    padding-left: 40px;
+    
+}
+
+
+
